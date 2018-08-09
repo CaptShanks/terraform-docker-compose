@@ -32,6 +32,7 @@ resource "aws_instance" "master" {
       "sudo cp ~/script1.sh ~/observability-boilerplate1/script1.sh",
       "sudo sysctl -w vm.max_map_count=262144",
       "sudo nohup sh setup.sh &",
+      "echo working... && sleep 7m",
       "sudo sh script1.sh",
       #"PID=$!",
       #"wait $PID",
