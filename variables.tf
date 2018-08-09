@@ -11,4 +11,5 @@ variable "ami" {
 variable "instance_type" {
   description = "The AWS instance type to use"
   default     = "t2.2xlarge"
+  
 }

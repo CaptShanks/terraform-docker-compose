@@ -7,5 +7,5 @@ do
 		exit 0
 	else
 		continue
-	fi
+	fi 
 done
